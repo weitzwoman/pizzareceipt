@@ -1,10 +1,11 @@
 $(document).ready(function() {
   $("form").submit(function(event) {
     var personName = $("input#fullname").val();
-    $(".first").text(personName);
     var address = $("input#address").val();
-    $(".second").text(address);
     var pizza = $("#pizza").val();
+
+    $(".first").text(personName);
+    $(".second").text(address);
     $(".third").text(pizza);
     $(".jumbotron").show();
     event.preventDefault();
