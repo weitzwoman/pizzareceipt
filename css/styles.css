@@ -1,0 +1,21 @@
+.jumbotron {
+  display: none;
+  background-image: url(../img/pie.jpg);
+  background-size: cover;
+  background-color: transparent;
+}
+
+.list {
+  list-style-type: none;
+}
+
+p {
+  color: black;
+  font-weight: bolder;
+  font-style: oblique;;
+
+}
+
+ul li {
+  font-size: 20px;
+}
